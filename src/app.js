@@ -1,6 +1,7 @@
-import 'dotenv/config';
-
 import express from 'express';
+import 'dotenv/config';
+import './database';
+
 import routes from './routes';
 
 class App {
